@@ -1,0 +1,56 @@
+namespace BadCode.Main
+{
+    public enum StartProcess
+    {
+        init_ui_start,
+        init_ui_main_console,
+        ready_main_console,
+        preapare_pool,
+        ready_pool
+    }
+
+    public enum CoreObjectType
+    {
+        none,
+        jem_blue,
+        jem_green,
+        jem_pink,
+        jem_red,
+        //-------
+        jelly_blue,
+        jelly_green,
+        jelly_pink,
+        jelly_red,
+        //---------
+        explosionblue01,
+        explosionblue02,
+        explosionblue03,
+        explosionblue04,
+        explosionblue05,
+        explosiongreen01,
+        explosiongreen02,
+        explosiongreen03,
+        explosiongreen04,
+        explosiongreen05,
+        explosionpink01,
+        explosionpink02,
+        explosionpink03,
+        explosionpink04,
+        explosionpink05,
+        explosionred01,
+        explosionred02,
+        explosionred03,
+        explosionred04,
+        explosionred05,
+        //-------------
+        wrappedsolid_blue,
+        wrappedsolid_green,
+        wrappedsolid_pink,
+        wrappedsolid_red,
+        swirl_blue,
+        swirl_green,
+        swirl_pink,
+        swirl_red,
+        mm_brown
+    }
+}
